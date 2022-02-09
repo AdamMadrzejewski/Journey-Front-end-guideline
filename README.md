@@ -1,4 +1,4 @@
-# Front-end - Guideline
+# Front-end - Guidelines
 
 > "Every line of code should appear to be written by a single person, no matter the number of contributors." - Chinese Proverb.
 
