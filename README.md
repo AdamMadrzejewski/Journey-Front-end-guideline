@@ -80,7 +80,7 @@ const obj = {
 
 Refactoring makes part of Journey's way of being, doing it every day and task by task.
 
-Once the current code is tested and can be refactored. We must make sure that the new changes will not break the current functionalities. 
+Once the current code is tested and refactored we must make sure that the new changes will not break the current functionalities. 
 
 ## 2. Architecture
 
