@@ -18,8 +18,7 @@ As this is a live document, some rules may not have been applied in old projects
 6. [JavaScript](#6-javascript)
 7. [React](#7-react)
 8. [Vue](#8-vue)
-9. [Storybook](#9-storybook)
-10. [Testing](#10-testing)
+9. [Testing](#10-testing)
 
 ---
 
@@ -967,29 +966,7 @@ export default class MyComponent extends Vue {
 
 ---
 
-## 9. Storybook
-
-- 9.1 [Story file](#91-storybook-file-name)
-
-### 9.1 Story file
-
-Create a file with the same name of your component, or index, and with the suffix `.stories.mdx`.
-
-**✅ Good:**
-
-- Button.stories.mdx
-- Dialog/index.stories.mdx
-
-**❌ Bad:**
-
-- Input.mdx
-- Dialog/index.mdx
-
-**[⬆ back to summary](#-summary)**
-
----
-
-## 10. Testing
+## 9. Testing
 
 - 10.1 [Write tests with "it"](#101-write-tests-with-it)
 - 10.2 [Using test-id](#102-using-test-id)
