@@ -164,7 +164,7 @@ For example:
 
 In order to facilitate the contribution of anyone in a project, all commit messages must be in **English**.
 
-We also use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/), that is, the commit message must be in the form of a sentence, with the first word being an action, and the rest of the sentence a describing text.
+(IN PROGRESS, IGNORE FOR NOW) We also use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/), that is, the commit message must be in the form of a sentence, with the first word being an action, and the rest of the sentence a describing text.
 
 **✅ Good:**
 
