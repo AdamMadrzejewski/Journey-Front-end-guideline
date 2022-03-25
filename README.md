@@ -211,6 +211,37 @@ We don't guest the scope of HTML components inside page, so when we start a new 
 </div>
 ```
 
+### 4.2 HTML Component Scope
+
+Use HTTPS for embedded resources where possible.
+Always use HTTPS (https:) for images and other media files, style sheets, and scripts, unless the respective files are not available over HTTPS.
+
+**✅ Good:**
+
+```html
+<!-- Recommended -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Recommended -->
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+```
+
+**❌ Bad:**
+
+```html
+<!-- Not recommended: omits the protocol -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Not recommended: uses HTTP -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Not recommended: omits the protocol -->
+@import '//fonts.googleapis.com/css?family=Open+Sans';
+
+<!-- Not recommended: uses HTTP -->
+@import 'http://fonts.googleapis.com/css?family=Open+Sans';
+```
+
 ## 5. CSS
 
 The tips above could be used in any CSS framework or preprocessor, like SCSS, Styled Components and etc
